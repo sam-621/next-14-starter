@@ -1,14 +1,5 @@
 {
-  "[typescript]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.format": "explicit"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
